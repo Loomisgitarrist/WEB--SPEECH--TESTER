@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - WEB SPEECH TESTER</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+  <h1>AI-HOMIE WEB SPEECH TESTER</h1>
+  <div class="uiunit">
+    <label for="speakerMenu">Voice: </label>
+    <select id="speakerMenu"></select> speaks
+    <span id="language">English.</span>
+  </div>
+  <p id="warning">Sorry, your browser does not support the Speech Synthesis API.</p>
+
+  <textarea id="txtFld">Choose any voice. Type here in the chosen language.</textarea>
+  <label for="txtFld">Type text above in the selected language (or copy from Google Translate). Then click the Speak button.</label>
+  <div>
+    <button type="button" id="speakBtn">Speak</button>
+    <br>
+    <p>Note: For best results on a Mac, use the latest version of Chrome, Safari, or FireFox. On Windows, use Chrome.</p>
+  </div>
+
+</div>
+<style>
+  body {
+    background-image: url("https://www.dropbox.com/s/ikufmnb9c6woabi/c821a1ef-5486-4da7-86e2-c52774c15d99.JPG?raw=1");
+    background-size: cover;
+  }
+  
+
+</style>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
